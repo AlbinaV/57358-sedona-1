@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Альбина Валеева](https://up.htmlacademy.ru/adaptive/14/user/57358).
-* Наставник: `Неизвестно`.
+* Наставник: [Елена Арутюнян](https://htmlacademy.ru/profile/id106442)
 
 ---
 
