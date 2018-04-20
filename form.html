@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Барбершоп «Бородинский»</title>
+    <title></title>
   </head>
   <body>
     <header class="main-header">
@@ -32,81 +32,77 @@
       <section class="sedona-sign">
         <p>SEDONA</p>
       </section>
-      <section class="reviews">
-        <h3 class="review__header">Оставьте свой отзыв</h3>
-        <p class="review__sign">Помогате нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенныз вами достопримечательностях</p>
+      <section class="page__block">
+        <h3 class="section__title">Оставьте свой отзыв</h3>
+        <p class="section__info">Помогате нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенныз вами достопримечательностях</p>
       </section>
       <div class="review">
         <form class="review-form" action="https://echo.htmlacademy.ru" method="post">
-          <div class="fullname">
-            <p class="review-form__header">Представьтесь:</p>
-            <p class="review-item">
-              <label for="review-item__label">Имя:</label>
-              <input id="review-item__name" type="text" name="name" value="" placeholder="">
+          <fieldset class="form__fieldset form__filedlset--name">
+            <h3 class="form__header">Представьтесь:</h3>
+            <p class="form__item">
+              <label for="field-input" class="form__label">Имя:</label>
+              <input class="form__input" id="field-input" type="text" name="name" value="" placeholder="">
             </p>
-            <p class="review-item">
-              <label for="review-item__label">Фамилия:</label>
-              <input id="review-item__surname" type="text" name="surname" value="" placeholder="">
+            <p class="form__item">
+              <label for="field-input" class="form__label">Фамилия:</label>
+              <input class="form__input" id="field-input" type="text" name="surname" value="" placeholder="">
             </p>
-            <p class="review-item">
-              <label for="review-item__label">Отчество:</label>
-              <input id="review-item__patronymic" type="text" name="patronymic" value="" placeholder="">
+            <p class="form__item">
+              <label for="field-input" class="form__label">Отчество:</label>
+              <input class="form__input" id="field-input" type="text" name="patronymic" value="" placeholder="">
             </p>
-          </div>
-          <div class="contacts">
-            <p class="contacts-form__header">Контактная информация:</p>
-            <p class="contacts-item">
-              <label for="contacts-item__label">Контактный телефон:</label>
-              <input id="contacts-item__phone" type="text" name="name" value="Введите телефон" placeholder="">
+          </fieldset>
+          <fieldset class="form__fieldset form__filedlset--contact">
+            <h3 class="form__header">Контактная информация:</h3>
+            <p class="form__item">
+              <label for="field-input" class="form__label">Контактный телефон:</label>
+              <input class="form__input" id="field-input" type="text" name="phone" value="Введите телефон" placeholder="">
             </p>
-            <p class="contacts-item">
-              <label for="contacts-item__label">Электронная почта:</label>
-              <input id="contacts-item__email" type="text" name="name" value="Введите e-mail" placeholder="">
+            <p class="form__item">
+              <label for="field-input" class="form__label">Электронная почта:</label>
+              <input class="form__input" id="field-input" type="text" name="email" value="Введите e-mail" placeholder="">
             </p>
-          </div>
-          <div class="impression">
-            <p class="impression__header">Ваше общее впечатление:</p>
-            <ul class="impression__list">
-              <li class="impression__item">
-                <input class="impression-input impression-input--active" type="radio" name="positive" id="impression-positive" checked>
-                <label for="impression-positive">Скорее положительное</label>
-              </li>
-              <li class="impression__item">
-                <input class="impression-input" type="radio" name="negative" id="impression-negative">
-                <label for="impression-negative">Скорее отрицательное</label>
-              </li>
-              <li class="impression__item">
-                <input class="impression-input" type="radio" name="neutral" id="impression-neutral">
-                <label for="impression-neutral">Затрудняюсь ответить</label>
-              </li>
-            </ul>
-          </div>
-          <div class="attraction">
-            <p class="attraction__header">Посещенные достопримечательности:</p>
-            <ul class="attraction__list">
-                <li class="attraction__item">
-                  <input class="attraction-input attraction-input--active" type="checkbox" name="bridge" id="attraction-bridge" checked>
-                  <label for="attraction-bridge">Мост Дьявола</label>
-                </li>
-                <li class="attraction__item">
-                  <input class="attraction-input attraction-input--active" type="checkbox" name="mountain" id="attraction-mountain" checked>
-                  <label for="attraction-mountain">Гора-колокол</label>
-                </li>
-                <li class="attraction__item">
-                  <input class="attraction-input attraction-input--active" type="checkbox" name="park" id="attraction-park" checked>
-                  <label for="attraction-park">Слайд-парк</label>
-                </li>
-                <li class="attraction__item">
-                    <input class="attraction-input" type="checkbox" name="rock" id="attraction-rock">
-                    <label for="attraction-rock">Красные скалы</label>
-                  </li>
-              </ul>
-            </div>
-            <section class="emotions">
-              <h3 class="emotions__header">Опишите свои эмоции</h3>
-              <input class="emotions-input" type="text" name="emotions">
-            </section>
-            <input class="button form-button"  type="submit" value="Отправить отзыв">
+          </fieldset>
+          <fieldset class="form__fieldset form__filedlset--impression">
+            <h3 class="form__header">Ваше общее впечатление:</h3>
+            <p class="form__item">
+              <input class="form__input form__input--active" id="field-input" type="radio" name="positive" checked>
+              <label for="field-input" class="form__label">Скорее положительное</label>
+            </p>
+            <p class="form__item">
+                <input class="form__input" id="field-input" type="radio" name="negative">
+                <label for="field-input" class="form__label">Скорее отрицательное</label>
+            </p>
+            <p class="form__item">
+                <input class="form__input" id="field-input" type="radio" name="neutral">
+                <label for="field-input" class="form__label">Затрудняюсь ответить</label>
+            </p>
+          </fieldset>
+          <fieldset class="form__fieldset form__filedlset--attraction">
+            <h3 class="form__header">Посещенные достопримечательности:</h3>
+            <p class="form__item">
+                <input class="form__input form__input--active" id="field-input" type="checkbox" name="bridge" checked>
+                <label for="field-input">Мост Дьявола</label>
+            </p>
+            <p class="form__item">
+                <input class="form__input form__input--active" id="field-input" type="checkbox" name="mountain" checked>
+                <label for="field-input">Гора-колокол</label>
+            </p>
+            <p class="form__item">
+                <input class="form__input form__input--active" id="field-input" type="checkbox" name="park" checked>
+                <label for="field-input">Слайд-парк</label>
+            </p>
+            <p class="form__item">
+                <input class="form__input"  id="field-input" type="checkbox" name="rock" >
+                <label for="field-input">Красные скалы</label>
+            </p>
+          </fieldset>
+          <fieldset class="form__fieldset form__filedlset--emotion">
+            <h3 class="form__header">Опишите свои эмоции</h3>
+            <input class="form__input" type="textarea" name="emotions">
+          </fieldset>
+          <input class="button review-form"  type="submit" value="Отправить отзыв">
         </form>
       </div>
     </main>
@@ -117,13 +113,13 @@
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--twitter">Мы в Твиттере</a>
+            <a class="social__link social__link--twitter"><span class="visually-hidden">Мы в Твиттере</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook">Мы в Фейсбуке</a>
+            <a class="social__link social__link--facebook"><span class="visually-hidden">Мы в Фейсбуке</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--youtube">Мы в Ютубе</a>
+            <a class="social__link social__link--youtube"><span class="visually-hidden">Мы в Ютубе</span></a>
           </li>
         </ul>
       </div>
