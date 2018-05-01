@@ -1,0 +1,23 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: $regular-line-height; 
+  line-height: $sedona-regular-size;
+  list-style-type:none;
+  color: $text-color;
+  background: white; 
+  text-align: center;
+  text-decoration: none;
+    
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
