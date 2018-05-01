@@ -1,0 +1,23 @@
+.features{}
+
+
+.features__list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 0 20px 0 70px;
+  width:230px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+
+.features__item{
+  font-size: $sedona-regular-size;
+  line-height: $regular-line-height;
+  color: $text-color;
+  background-color: $contrast-color;
+}
+
+

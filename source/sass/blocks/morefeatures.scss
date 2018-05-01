@@ -1,0 +1,20 @@
+.morefeatures{
+  list-style: none;
+  background-color: #eeeeee;
+  margin: 0;
+}
+
+
+.morefeatures__item{
+  font-size: $sedona-regular-size;
+  line-height: $regular-line-height;
+  color: $text-color;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.morefeatures__title{
+  font-size: $sedona-title-size;
+  line-height: $title-line-height;
+}

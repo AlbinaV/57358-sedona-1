@@ -1,0 +1,20 @@
+.main-nav{
+  font-size: $sedona-title-size; 
+  line-height: 40px; 
+  color: $contrast-color;
+  background-color: $sedona-color;
+  text-transform: uppercase;
+  text-decoration: none;
+    
+}
+
+.main-nav__toggle{
+  color: $sedona-color;
+}
+
+.main-nav__list{
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+    
+}
