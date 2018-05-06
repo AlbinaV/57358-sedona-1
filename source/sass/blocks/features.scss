@@ -1,0 +1,25 @@
+.features{
+  min-height: 416px;
+  color: $text-color;
+}
+
+
+.features__list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 25px 50px 0 20px;
+  width: 230px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.features__title{
+  font-size: $sedona-title-size;
+  line-height: $title-line-height;   
+}
+
+
+
+
