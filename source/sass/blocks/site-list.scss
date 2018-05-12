@@ -1,17 +1,9 @@
 .site-list{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  margin:0;
-  padding:0;
-
-
 }
 
 .site-list__item{
   border-bottom: 1px solid #678fa8;
   text-align: center;
-  min-height:56px;
+  min-height: 56px;
 
 }

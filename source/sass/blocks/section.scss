@@ -1,5 +1,7 @@
 .section{
   text-align: center;
+  min-height: 225px;
+  background-color: $contrast-color;
 }
 
 
@@ -16,6 +18,19 @@
   color: $text-color;
   font-size: $sedona-regular-size;
   font-weight: normal;
-  line-height: $regular-line-height;
+  line-height: 24px;
 }
 
+.section__sedona{
+/* Временно для сетки */
+height: 290px;
+    
+@media (min-width: $tablet-width) {
+/* Временно для сетки */
+    min-height: 224px;
+    }
+    
+@media (min-width: $desktop-width){  
+    min-height: 207px;
+    }
+}

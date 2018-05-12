@@ -1,11 +1,85 @@
+.advantages{
+   display:flex;
+
+   
+}
+   
 .advantages__item{
   font-size: $sedona-regular-size;
   line-height: $regular-line-height;
   color: $contrast-color;
   background-color: $sedona-color;
   margin: 0;
-  
+  padding: 0;
+    
+
+        
+  min-height:210px; 
+
+ 
 }
+      
+.advantages__gallery{
+  margin: 0;
+  padding: 0;
+    
+  min-height:210px; 
+    
+ 
+}     
+     
+@media (min-width: $tablet-width) {
+.advantages{
+  margin: 0;
+  padding: 0;
+    
+  min-height:260px;
+}
+    
+.advantages__container{
+    display:flex;
+    }
+      
+
+.advantages__item--cityinfo{
+  width: 256px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+    
+  min-height:260px;
+}
+  
+.advantages__item--bridge{
+     order:2;   
+    }
+    
+.advantages__gallery{
+  width: 512px;     
+  margin: 0;
+  padding:0;
+
+  min-height:260px;    
+}
+}
+
+
+@media (min-width: $desktop-width) {
+.advantages__item{
+    margin: 0; 
+    width: 400px;
+    }
+    
+    
+ .advantages__gallery{
+  margin: 0; 
+  width: 800px;
+    }
+
+
+}
+
+
 
 .advantages__title{
   font-size: $sedona-title-size;
@@ -13,11 +87,11 @@
 }
 
 .advantages__item--cityinfo{
-  min-height: 210px;
+  min-height: 260px;
 }
 
 .advantages__item--bridge{
-  min-height: 191px;
+  min-height: 260px;
 }
 
 .advantages__gallery{

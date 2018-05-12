@@ -1,18 +1,32 @@
 .features{
   min-height: 416px;
   color: $text-color;
+  background-color: $contrast-color; 
+  padding:0;
+  
+ 
+ 
+        
+ 
 }
 
+.features__container{
+   width: 320px; 
+  margin: 0 auto;
+    
+}
 
 .features__list{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   text-align: left;
-  padding: 25px 50px 0 20px;
-  width: 230px;
-  margin: 0 auto;
+  margin: 0;
+  padding:0;
   list-style: none;
+    
+}
+
+.features__item{
+    
+  min-height:140px;  
 }
 
 .features__title{
@@ -22,4 +36,39 @@
 
 
 
+@media (width: $tablet-width){
+    
+.features{
+ 
+}    
+    
+.features__container{
+  width: auto;
+  margin: 0;
+}
+    
+.features__list{ 
+  display:flex;
+  width:768px;
+  margin:0 auto;
 
+    min-height:330px; 
+     
+}
+    
+.features__item{
+  text-align: center;
+ /* Временно для сетки */
+    min-height:330px;   
+    }
+    
+}
+
+@media (width: $desktop-width){
+
+.features__list{
+  width:1200px;
+}  
+    
+    
+}

@@ -1,6 +1,5 @@
 .morefeatures{
   background-color: #eeeeee;
-  width:320px;
 }
 
 .morefeatures__list{
@@ -16,6 +15,7 @@
   font-size: $sedona-regular-size;
   line-height: $regular-line-height;
   color: $text-color;
+  min-height: 168px;
 }
 
 .morefeatures__title{

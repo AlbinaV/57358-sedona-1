@@ -1,11 +1,24 @@
-.main-header{
-  width: 320px;
-  margin: 0;
- 
+.main-header {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .main-header__logo{
-
+   height:85px;
 }
 
 
+@media (min-width: $tablet-width) {
+  .main-header__logo{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    }   
+}
+
+
+@media (min-width: $desktop-width) {
+  .main-header__logo {
+    height: 96px;
+  }
+}
