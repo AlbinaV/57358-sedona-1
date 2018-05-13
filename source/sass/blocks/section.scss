@@ -1,5 +1,4 @@
 .section{
-  text-align: center;
   min-height: 225px;
   background-color: $contrast-color;
 }
@@ -14,11 +13,12 @@
 
 
 .section__info{
-  padding: 0 26px;
+  padding: 0 12px 34px 12px;
   color: $text-color;
   font-size: $sedona-regular-size;
   font-weight: normal;
   line-height: 24px;
+  margin:0;
 }
 
 .section__sedona{
@@ -33,4 +33,48 @@ height: 290px;
 @media (min-width: $desktop-width){  
     min-height: 207px;
     }
+}
+
+
+.section__name__big{
+    .section__title{
+        padding:30px 53px 20px 53px;
+        margin:0;
+        font-size: 21px;  
+    }
+}
+
+
+.section__button{
+  display: block;
+  box-sizing: border-box;
+  border:none;
+  font:inherit;
+  font-size: 21px;
+  font-weight:bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #81b3d2; 
+  padding:0; 
+    
+  width: 280px;
+  height:58px;
+  margin:0 auto;
+    
+  margin-bottom:50px;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active { 
+     background-color:#5496bd;
+      color: #88b6d1;
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
+    color: #ffffff;
+  }
 }

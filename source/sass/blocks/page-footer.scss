@@ -1,2 +1,38 @@
-.page-footer{
+.social__list{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+    
+  color:#ffffff;
+  
+  width:150px; 
+}
+
+.social__link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 48px;
+
+  background-color: #81b3d2;
+}
+
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #ffffff;
+}
+
+.social-button:hover path,
+.social-button:focus path {
+  fill: #000000;
+}
+
+.page-footer__social{
+  margin-bottom: 35px;
 }

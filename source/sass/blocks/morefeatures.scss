@@ -1,14 +1,14 @@
 .morefeatures{
   background-color: #eeeeee;
+
 }
 
 .morefeatures__list{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   text-align: center;
-  padding: 0;
   list-style: none;
+  padding: 0;
+  margin:0;
+  
 }
 
 .morefeatures__item{
@@ -16,9 +16,33 @@
   line-height: $regular-line-height;
   color: $text-color;
   min-height: 168px;
+  padding: 30px 20px;
+  margin:0;
 }
 
 .morefeatures__title{
-  font-size: $sedona-title-size;
+  font-size: 21px;
   line-height: $title-line-height;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .morefeatures__list{
+    display:flex;
+    min-height: 255px;
+    }
+    
+.morefeatures__item{
+    padding: 48px 43px 0 43px;
+    
+    }
+    
+    
+}
+
+@media (min-width: $desktop-width) {
+  .morefeatures__title{
+  
+}
+    
 }

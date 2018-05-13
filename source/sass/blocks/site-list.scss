@@ -4,6 +4,41 @@
 .site-list__item{
   border-bottom: 1px solid #678fa8;
   text-align: center;
-  min-height: 56px;
 
+}
+
+.site-list__item{
+  padding: 8px 0 7px 0;
+  text-decoration: none; 
+  color:$contrast-color;
+}
+
+.site-list a{
+  text-decoration: none;
+  color:$contrast-color;
+  padding:0;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list a{
+      color:$text-color;
+    }
+  .site-list__item{
+  border-bottom: none;
+    }
+  .site-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 700px;
+  }
+    
+    
+    
+}
+
+@media (min-width: $desktop-width) {
+    .site-list {
+    width: 1045px;
+  }
 }

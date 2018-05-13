@@ -1,16 +1,16 @@
 .main-nav{
   font-family: "ptsans", "arial", sans-serif;
-  font-size: $sedona-title-size; 
+  font-size: $sedona-title-size;
+  font-weight: bold;
   line-height: 40px; 
   color: $contrast-color;
   background-color: $sedona-color;
   text-transform: uppercase;
   text-decoration: none;
-    
-  width: 320px;
+  min-width: 320px;
   margin: 0 auto;
-    
 }
+
 
 .main-nav__toggle{
   color: $sedona-color;
@@ -19,44 +19,22 @@
 .main-nav__list{
   list-style-type: none; 
   padding: 0;
-  margin: 0;
-    
-  /* Временно для сетки */
-  min-height: 56px;
+  margin: 0; 
 }
 
-.site-list {
-  /* Временно для сетки */
-  min-height: 280px;
-  
-}
 
 @media (min-width: $tablet-width) {
   .main-nav {
   width: auto;
   margin: 0;
   background-color: $contrast-color;
- 
+  color: $text-color;
 }
 
 .main-nav__wrapper{
-    margin: 0 auto; 
-    width:700px;
+  margin: 0 auto; 
+  width:700px;
     } 
-    
-.site-list {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 700px;
-     /* Временно для сетки */
-    min-height:56px;
-  }
-    
-    
-.site-list__item{
-  border-bottom:none;
-  }   
 }
 
 
@@ -65,15 +43,4 @@
     margin: 0 auto; 
     width:1045px;
     } 
-    
-.site-list {
-    width: 1045px;
-  }
-    
-.site-list__item{
-  border-bottom:none;
-}
-    
-    
-
 }
