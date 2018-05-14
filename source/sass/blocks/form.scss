@@ -1,0 +1,90 @@
+.form__fieldset{
+    width:320px;
+    padding:0;
+    margin:0;
+    border:none;
+    border-top:1px solid  #e5e5e5;
+}
+
+@media (min-width: $tablet-width){
+    
+  .form__container{
+        display:flex;
+        flex-wrap:wrap;
+       flex-direction: row;
+        width:648px;
+    }  
+    
+  .form__fieldset {
+    width: 648px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+       
+  .form__filedlset--name,
+  .form__filedlset--impression {
+    width: 324px;
+    box-sizing: border-box;
+    border-top: none;
+  }
+    
+.form__filedlset--impression{
+        order:-1;
+    }
+    
+.form__fieldset__wrapper{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        width:468px;
+        margin:0 auto;   
+    }
+    
+    .form__item--checkbox{
+        width:230px;
+        text-align: left;
+    }
+    .form__filedlset--contact{
+       
+    }
+}
+
+
+@media (min-width: $desktop-width){
+    .form__container{
+    width:960px;
+}
+    
+  .form__fieldset {
+    width: 960px;
+    }
+    
+  .form__filedlset--name,
+  .form__filedlset--impression {
+    width: 480px;
+  }
+ 
+.form__fieldset__wrapper{
+  width:960px;
+  margin:0;
+  flex-direction: row;
+  justify-content:flex-start;
+    }
+    
+.form__item--contact{
+  width:480px;
+  box-sizing: border-box;
+  margin:0;
+    }
+    
+.form__filedlset--contact{
+  display:flex;
+  justify-content: start;
+    }
+    
+.form__item--checkbox{
+  width:238px;
+    }
+      
+}
