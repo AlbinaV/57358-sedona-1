@@ -27,8 +27,7 @@
      
 @media (min-width: $tablet-width) {
 .advantages{
-  padding: 0;
-    
+  padding: 0;  
 }
     
 .advantages__container{
@@ -39,6 +38,15 @@
 .advantages__item--bridge{
      order:2;   
     }
+    
+.advantages__item{
+  width: 256px;
+}
+    
+.advantages__gallery{
+  width: 512px;
+}
+    
 }
 
 

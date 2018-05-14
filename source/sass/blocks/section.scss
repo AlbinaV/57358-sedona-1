@@ -60,7 +60,11 @@
 }
     
 @media (min-width: $tablet-width) {
-  
+  .section__video{
+      width:648px;
+      min-height:500px;
+      margin:0;
+    }
     }
     
 @media (min-width: $desktop-width){  
@@ -73,6 +77,13 @@
     .section__title{
         padding:30px 53px 20px 53px;
         font-size: 21px;  
+    }
+    
+    
+    .section__video{
+      width:800px;
+      min-height:505px;
+      margin:0;
     }
 }
 
